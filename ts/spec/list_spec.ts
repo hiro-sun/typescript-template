@@ -6,13 +6,15 @@ import * as sinon from 'sinon';
 import {List} from '../src/list';
 
 describe('Assert sample', () => {
-    context("list", () => {
-        it ('add', () => {
+    context("list test 1", () => {
+        it ('add cell', () => {
             var list = new List();
-            var list2 = new List();
-            list.add(1);
-            list2.add(2);
-            assert(list === list);
+            list.add(10);
+            assert(list.get(0) === 10);
+        });
+
+        it ('delete cell', () => {
+            // Not implements yet.
         });
     });
 });
