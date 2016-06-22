@@ -1,0 +1,7 @@
+/node_modules
+/ts/typings
+/ts/coverage/*
+
+*.js
+*.map
+*.log
