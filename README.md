@@ -14,9 +14,9 @@ This project will use only the Node Module, which was installed on the local.
 ## How To
 `$ git clone https://github.com/hiro-sun/typescript-template.git`
 
-`$ npm install`
+`$ cd typescript-template && npm install`
 
-`$ cd typescript-template/ts`
+`$ cd ts`
 
 `$ make init`
 
